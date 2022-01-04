@@ -1,5 +1,5 @@
 if (window.Worker) {
-  const primeNumberWorker = new Worker("prime-number-worker.js");
+  const primeNumberWorker = new Worker('prime-number-worker.js');
   const button = document.querySelector('.j-button');
   const buttonRestart = document.querySelector('.j-button-restart');
   const result = document.querySelector('.j-result');
